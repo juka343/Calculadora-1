@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: gray;
+  display: grid;
+  place-items: center;
+}
+
+.calculadora {
+  background-color: rgb(24, 24, 106);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 300px;
+  height: 400px;
+  padding: 30px;
+  border-radius: 2rem;
+}
+
+.pantalla {
+  background-color: aliceblue;
+  grid-column: 1/5;
+  font-size: 3rem;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+#equal {
+  grid-column: 4/5;
+  grid-row: 5/7;
+  background-color: rgb(255, 105, 105);
+}
+
+#cero {
+  grid-row: 6/7;
+  grid-column: 1/3;
+}
